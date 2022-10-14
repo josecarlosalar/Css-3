@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/josecarlosalar/Lemoncode-Css-Basic-3/issues"
     },
-    "homepage": "https://github.com/josecarlosalar/Lemoncode-Css-Basic-3#readme"
+    "homepage": "https://github.com/josecarlosalar/Lemoncode-Css-Basic-3#readme",
+    "devDependencies": {
+        "sass": "^1.55.0"
+    }
 }
