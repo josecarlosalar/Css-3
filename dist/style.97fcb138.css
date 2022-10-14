@@ -1,2 +1,70 @@
+body,
+main {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 360px) {
+  .main {
+    margin: 20px;
+  }
+  .header {
+    font-size: 0.5rem;
+  }
+  .nav {
+    display: block;
+    background-color: rgb(12, 106, 122);
+  }
+  .nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+  }
+  .nav .button {
+    font-size: 0.6rem;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+  .nav .button:hover {
+    background-color: rgb(48, 72, 88);
+  }
+}
+@media screen and (min-width: 361px) {
+  .header {
+    font-size: 0.5rem;
+    padding: 5px;
+  }
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 30px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(12, 106, 122);
+  }
+  .nav a {
+    text-decoration: none;
+    color: white;
+  }
+  .nav .button {
+    font-size: 0.6rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+  .nav .button:hover {
+    background-color: rgb(48, 72, 88);
+  }
+}
 
 /*# sourceMappingURL=/style.97fcb138.css.map */
